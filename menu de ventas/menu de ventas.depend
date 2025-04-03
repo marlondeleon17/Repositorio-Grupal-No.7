@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1743637674 source:c:\users\seles\onedrive\documentos\2progra\menu de ventas\main.cpp
+	<iostream>
+	"SistemaVentas.h"
+
+1743635585 source:c:\users\seles\onedrive\documentos\2progra\menu de ventas\src\cliente.cpp
+	"Cliente.h"
+
+1743635585 c:\users\seles\onedrive\documentos\2progra\menu de ventas\include\cliente.h
+	<string>
+
+1743635585 source:c:\users\seles\onedrive\documentos\2progra\menu de ventas\src\producto.cpp
+	"Producto.h"
+
+1743635585 c:\users\seles\onedrive\documentos\2progra\menu de ventas\include\producto.h
+	<string>
+
+1743635585 source:c:\users\seles\onedrive\documentos\2progra\menu de ventas\src\venta.cpp
+	"Venta.h"
+
+1743635585 c:\users\seles\onedrive\documentos\2progra\menu de ventas\include\venta.h
+	"Cliente.h"
+	"Producto.h"
+
+1743637778 source:c:\users\seles\onedrive\documentos\2progra\menu de ventas\src\sistemaventas.cpp
+	<iostream>
+	"SistemaVentas.h"
+
+1743635585 c:\users\seles\onedrive\documentos\2progra\menu de ventas\include\sistemaventas.h
+	<vector>
+	"Cliente.h"
+	"Producto.h"
+	"Venta.h"
+
