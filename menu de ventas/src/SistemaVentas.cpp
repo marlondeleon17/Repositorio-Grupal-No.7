@@ -3,6 +3,9 @@
 
 using namespace std;
 
+// Agrega un nuevo cliente al sistema.
+// Solicita al usuario ingresar el nombre y correo electrónico del cliente.
+// Luego, lo almacena en la lista de clientes.
 void SistemaVentas::agregarCliente() {
     string nombre, email;
     cout << "Ingrese el nombre del cliente: ";
@@ -13,6 +16,9 @@ void SistemaVentas::agregarCliente() {
     cout << "Cliente agregado exitosamente.\n";
 }
 
+// Agrega un nuevo producto al sistema.
+// Solicita al usuario ingresar el nombre y el precio del producto.
+// Luego, lo almacena en la lista de productos.
 void SistemaVentas::agregarProducto() {
     string nombre;
     double precio;
@@ -24,6 +30,9 @@ void SistemaVentas::agregarProducto() {
     cout << "Producto agregado exitosamente.\n";
 }
 
+// Registra una nueva venta en el sistema.
+// Solicita al usuario ingresar el nombre del cliente, el nombre del producto y la cantidad deseada.
+// Verifica la existencia del cliente y del producto antes de registrar la venta.
 void SistemaVentas::realizarVenta() {
     string nombreCliente;
     string nombreProducto;
@@ -36,7 +45,7 @@ void SistemaVentas::realizarVenta() {
     cout << "Ingrese la cantidad: ";
     cin >> cantidad;
 
-    // Buscar cliente
+   // Buscar cliente en la lista de clientes registrados
     Cliente cliente("", "");
     bool clienteEncontrado = false;
     for (const auto& c : clientes) {
@@ -47,7 +56,7 @@ void SistemaVentas::realizarVenta() {
         }
     }
 
-    // Buscar producto
+    // Buscar producto en la lista de productos disponibles
     Producto producto("", 0);
     bool productoEncontrado = false;
     for (const auto& p : productos) {
@@ -58,6 +67,7 @@ void SistemaVentas::realizarVenta() {
         }
     }
 
+    // Si el cliente y el producto existen, se registra la venta
     if (clienteEncontrado && productoEncontrado) {
         ventas.push_back(Venta(cliente, producto, cantidad));
         cout << "Venta realizada exitosamente.\n";
@@ -71,6 +81,8 @@ void SistemaVentas::realizarVenta() {
     }
 }
 
+// Muestra la lista de todas las ventas realizadas.
+// Se imprime el nombre del cliente, el producto comprado y la cantidad adquirida
 void SistemaVentas::mostrarVentas() {
     cout << "Ventas realizadas:\n";
     for (const auto& v : ventas) {
@@ -79,6 +91,8 @@ void SistemaVentas::mostrarVentas() {
     }
 }
 
+// Muestra el menú principal del sistema de ventas.
+// Permite al usuario elegir entre agregar clientes, productos, realizar ventas o salir del sistema.
 void SistemaVentas::mostrarMenu() {
     int opcion;
     do {
@@ -108,7 +122,7 @@ void SistemaVentas::mostrarMenu() {
                 cout << "Saliendo del sistema...\n";
                 break;
             default:
-                cout << "Opcion no v�lida. Intente de nuevo.\n";
+                cout << "Opcion no válida. Intente de nuevo.\n";
         }
     } while (opcion != 5);
 }
