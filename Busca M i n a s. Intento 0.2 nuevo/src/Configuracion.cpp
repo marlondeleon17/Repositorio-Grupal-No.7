@@ -1,22 +1,22 @@
 #include "Configuracion.h"
 
 // Constructor de la clase Configuracion
-// Inicializa los atributos de la configuración del juego.
-// Parámetros:
-// - f: número de filas del tablero
-// - c: número de columnas del tablero
-// - m: número de minas en el tablero
-// - v: número de vidas del jugador
-// - modo: modo de juego (puede ser un valor que indique diferentes configuraciones de juego)
+// Inicializa los parÃ¡metros del juego con los valores proporcionados:
+// - filas: nÃºmero de filas en el tablero
+// - columnas: nÃºmero de columnas en el tablero
+// - minas: cantidad de minas en el juego
+// - vidas: nÃºmero de vidas disponibles
+// - modo: configuraciÃ³n del modo de juego
+// - victorias y derrotas inicializadas en 0
 Configuracion::Configuracion(int f, int c, int m, int v, int modo)
     : filas(f), columnas(c), minas(m), vidas(v), modo(modo), victorias(0), derrotas(0) {}
 
-// Incrementa el contador de victorias en 1
+// MÃ©todo para incrementar el contador de victorias
 void Configuracion::aumentarVictoria() {
     this->victorias++;
 }
 
-// Incrementa el contador de derrotas en 1
+// MÃ©todo para incrementar el contador de derrotas
 void Configuracion::aumentarDerrota() {
     this->derrotas++;
 }
