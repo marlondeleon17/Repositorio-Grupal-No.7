@@ -1,0 +1,316 @@
+# depslib dependency file v1.0
+1747258041 source:c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\src\cliente.cpp
+	"Cliente.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+
+1747256804 c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\include\cliente.h
+	<iostream>
+	<vector>
+	<string>
+
+1747255162 source:c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\src\producto.cpp
+	"Producto.h"
+	<iostream>
+	<cstdlib>
+	<ctime>
+
+1747258240 c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\include\producto.h
+	<string>
+	<vector>
+
+1747255164 source:c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\src\sistemaventas.cpp
+	<iostream>
+	"SistemaVentas.h"
+	<iomanip>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1747258240 c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\include\sistemaventas.h
+	<vector>
+	<string>
+	"Cliente.h"
+	"Producto.h"
+	"Venta.h"
+	"Vendedores.h"
+
+1747258238 c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\include\venta.h
+	<string>
+	<vector>
+
+1747255166 source:c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\src\venta.cpp
+	"Venta.h"
+
+1747254242 source:c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\src\bitacora.cpp
+	"bitacora.h"
+	<fstream>
+	<ctime>
+	<cstring>
+
+1747254183 c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\include\bitacora.h
+	<string>
+
+1747254242 source:c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\src\login.cpp
+	"Login.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1747254183 c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\include\login.h
+	<string>
+
+1747254242 source:c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\src\usuario.cpp
+	"Usuario.h"
+
+1747254141 c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\include\usuario.h
+	<string>
+
+1747257940 source:c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\main.cpp
+	<iostream>
+	"SistemaVentas.h"
+	"Login.h"
+	"bitacora.h"
+	"Cliente.h"
+	"Facturacion.h"
+	"Producto.h"
+	"vendedores.h"
+	"venta.h"
+
+1747258240 c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\include\vendedores.h
+	<iostream>
+	<vector>
+	<string>
+
+1747255681 source:c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\src\vendedores.cpp
+	"Vendedores.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+
+1747255681 source:c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\src\facturacion.cpp
+	"Facturacion.h"
+	<iostream>
+	<cstdlib>
+	<ctime>
+
+1747258240 c:\users\steve\onedrive\documentos\proyecto20252\proyectop12k25\equipo7\include\facturacion.h
+	"Cliente.h"
+	"Venta.h"
+	"SistemaVentas.h"
+
+1747254242 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\bitacora.cpp
+	"bitacora.h"
+	<fstream>
+	<ctime>
+	<cstring>
+
+1747630606 c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\include\bitacora.h
+	<string>
+	"Cliente.h"
+
+1747254242 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\login.cpp
+	"Login.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1747667698 c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\include\login.h
+	<string>
+
+1747667698 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\usuario.cpp
+	"Usuario.h"
+
+1747254141 c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\include\usuario.h
+	<string>
+
+1747629925 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\venta.cpp
+	"Venta.h"
+
+1747633122 c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\include\venta.h
+	<string>
+	<vector>
+
+1747770348 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\main.cpp
+	<iostream>
+	"SistemaVentas.h"
+	"Login.h"
+	"bitacora.h"
+	"Cliente.h"
+	"Facturacion.h"
+	"Producto.h"
+	"vendedores.h"
+	"venta.h"
+
+1747758362 c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\include\sistemaventas.h
+	<vector>
+	<string>
+	"Cliente.h"
+	"Producto.h"
+	"Venta.h"
+	"Vendedores.h"
+
+1747769457 c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\include\cliente.h
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+
+1747682875 c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\include\producto.h
+	<string>
+	<vector>
+
+1747766263 c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\include\vendedores.h
+	<iostream>
+	<vector>
+	<string>
+
+1747667698 c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\include\facturacion.h
+	"Cliente.h"
+	"Venta.h"
+	"SistemaVentas.h"
+
+1747758539 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\producto.cpp
+	"Producto.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<ctime>
+
+1747770207 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\facturacion.cpp
+	"Facturacion.h"
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<iomanip>
+
+1747769457 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\cliente.cpp
+	"Cliente.h"
+	<iostream>
+	<iomanip>
+	<fstream>
+	<cstdlib>
+
+1747769643 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\vendedores.cpp
+	"Vendedores.h"
+	<iostream>
+	<iomanip>
+	<fstream>
+	<cstdlib>
+
+1747769167 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\sistemaventas.cpp
+	<iostream>
+	"SistemaVentas.h"
+	<iomanip>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1747778311 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\main.cpp
+	<iostream>
+	"SistemaVentas.h"
+	"Login.h"
+	"bitacora.h"
+	"Cliente.h"
+	"Facturacion.h"
+	"Producto.h"
+	"vendedores.h"
+	"venta.h"
+
+1747778310 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\sistemaventas.h
+	<vector>
+	<string>
+	"Cliente.h"
+	"Producto.h"
+	"Venta.h"
+	"Vendedores.h"
+
+1747778522 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\cliente.h
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+
+1747778310 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\producto.h
+	<string>
+	<vector>
+
+1747778310 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\venta.h
+	<string>
+	<vector>
+
+1747778310 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\vendedores.h
+	<iostream>
+	<vector>
+	<string>
+
+1747778310 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\login.h
+	<string>
+
+1747778310 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\bitacora.h
+	<string>
+	"Cliente.h"
+
+1747778310 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\facturacion.h
+	"Cliente.h"
+	"Venta.h"
+	"SistemaVentas.h"
+
+1747778311 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\bitacora.cpp
+	"bitacora.h"
+	<fstream>
+	<ctime>
+	<cstring>
+
+1747778457 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\cliente.cpp
+	"Cliente.h"
+	<iostream>
+	<iomanip>
+	<fstream>
+	<cstdlib>
+
+1747778311 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\facturacion.cpp
+	"Facturacion.h"
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<iomanip>
+
+1747778311 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\login.cpp
+	"Login.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1747778311 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\producto.cpp
+	"Producto.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<ctime>
+
+1747778311 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\sistemaventas.cpp
+	<iostream>
+	"SistemaVentas.h"
+	<iomanip>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1747778311 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\usuario.cpp
+	"Usuario.h"
+
+1747778310 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\usuario.h
+	<string>
+
+1747778311 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\vendedores.cpp
+	"Vendedores.h"
+	<iostream>
+	<iomanip>
+	<fstream>
+	<cstdlib>
+
+1747778310 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\venta.cpp
+	"Venta.h"
+
