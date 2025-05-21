@@ -4,9 +4,7 @@
 #include <iostream>
 #include <cstdlib>  // Para rand()
 #include <ctime>    // Para time()
-#include <iomanip> // Para setw y setfill
-
-
+#include "encabezado.h"
 
 using namespace std;
 // Constructor de la clase Facturacion
@@ -26,6 +24,7 @@ void Facturacion::menuFacturacion(SistemaVentas& sistema) {
     do {
         system("cls");  // Limpia la pantalla
         // Muestra el menú de opciones
+        cout << "\n\t\t\t USUARIO ACTUAL: " << usuarioActual << "\n"; //Marlon De Leon 5001
         cout << "\n\t\t\t----------------------------\n";
         cout << "\t\t\t |   SISTEMA DE FACTURACION  |\n";
         cout << "\t\t\t  ----------------------------\n";
@@ -54,10 +53,7 @@ void Facturacion::menuFacturacion(SistemaVentas& sistema) {
 // Recibe como parámetro una referencia a un objeto SistemaVentas que contiene las ventas registradas
 void Facturacion::generarFactura(SistemaVentas& sistema) {
     system("cls");
-
-    // Asegurar que las ventas estén cargadas antes de buscar
-    sistema.cargarVentasDesdeArchivo();  // <-- LÍNEA CLAVE
-
+    cout << "\n\t\t\t USUARIO ACTUAL: " << usuarioActual << "\n"; //Marlon De Leon 5001
     cout << "\n\t\t\t-------------------------\n";
     cout << "\t\t\t |   DATOS DE LA FACTURA  |\n";
     cout << "\t\t\t  -------------------------\n";
@@ -101,37 +97,35 @@ void Facturacion::generarFactura(SistemaVentas& sistema) {
 // Recibe como parámetros un puntero a Cliente y a Venta
 void Facturacion::mostrarFactura(Cliente* cliente, Venta* venta) {
     system("cls");
-    cout << "\n";
-    cout << "\t\t\t============================================================\n";
-    cout << "\t\t\t                      FORGE VENTAS                          \n";
-    cout << "\t\t\t                                                            \n";
-    cout << "\t\t\t              GUATEMALA, CIUDAD DE GUATEMALA                \n";
-    cout << "\t\t\t   Direccion: Av. Tecnologica 123, Edif. Forge              \n";
-    cout << "\t\t\t   Tel:  12345678  |    Email: ventas@forge.com             \n";
-    cout << "\t\t\t============================================================\n";
-    cout << "\t\t\t                      FACTURA DE VENTA                      \n";
-    cout << "\t\t\t  Codigo de Venta: " << venta->codigoVenta << endl;
-    cout << "\t\t\t  NIT: " << cliente->nit << endl;
-    cout << "\t\t\t  Nombre del Cliente: " << cliente->nombre << endl;
-    cout << "\t\t\t------------------------------------------------------------\n";
-    cout << "\t\t\tCANTIDAD     DESCRIPCIÓN                 P.UNIT            \n";
-    cout << "\t\t\t------------------------------------------------------------\n";
+    cout << "\n\t\t\t USUARIO ACTUAL: " << usuarioActual << "\n";//Marlon De Leon 5001
+    cout << "\t\t\t|---------------------------------------------------------------------------|\n";
+    cout << "\t\t\t|                                 FACTURA                                   |\n";
+    cout << "\t\t\t|---------------------------------------------------------------------------|\n";
+    cout << "\t\t\t|---------------------------------------------------------------------------|\n";
+    cout << "\t\t\t|  NIT: " << cliente->nit << endl;
+    cout << "\t\t\t|---------------------------------------------------------------------------|\n";
+    cout << "\t\t\t|  Nombre del Cliente: " << cliente->nombre << endl;
+    cout << "\t\t\t|---------------------------------------------------------------------------|\n";
+    cout << "\t\t\t|  Codigo de Venta: " << venta->codigoVenta << endl;
+    cout << "\t\t\t|---------------------------------------------------------------------------|\n";
+    cout << "\t\t\t|  Productos comprados:\n";
 
     double totalFactura = 0.0;
     // Itera sobre los detalles de la venta (productos comprados)
     for (const auto& detalle : venta->productos) {
         double subtotal = detalle.cantidad * detalle.precioUnitario;
-        cout << " " << detalle.nombreProducto
+        cout << "\t\t\t| " << detalle.nombreProducto
              << " | Cantidad: " << detalle.cantidad
              << " | Precio unitario: Q" << detalle.precioUnitario
-             << endl;
+             << " | Subtotal: Q" << subtotal << endl;
         totalFactura += subtotal;
     }
     cout << "\t\t\t|---------------------------------------------------------------------------|\n";
-    cout << "\t\t\t|TOTAL: Q                                                 "<< totalFactura << endl;
+    cout << "\t\t\t|TOTAL: Q" << totalFactura << endl;
     cout << "\t\t\t|---------------------------------------------------------------------------|\n";
     system("pause");
 }
+
 // Inicializa el contador de facturas a 400 (primer código de factura)
 int Facturacion::contadorFactura = 400;
 

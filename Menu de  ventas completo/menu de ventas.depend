@@ -132,7 +132,7 @@
 	<string>
 	<vector>
 
-1747770348 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\main.cpp
+1747667846 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\main.cpp
 	<iostream>
 	"SistemaVentas.h"
 	"Login.h"
@@ -143,7 +143,7 @@
 	"vendedores.h"
 	"venta.h"
 
-1747758362 c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\include\sistemaventas.h
+1747666877 c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\include\sistemaventas.h
 	<vector>
 	<string>
 	"Cliente.h"
@@ -151,17 +151,17 @@
 	"Venta.h"
 	"Vendedores.h"
 
-1747769457 c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\include\cliente.h
+1747667698 c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\include\cliente.h
 	<iostream>
 	<vector>
 	<string>
-	<fstream>
+	"Cliente.h"
 
-1747682875 c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\include\producto.h
+1747630398 c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\include\producto.h
 	<string>
 	<vector>
 
-1747766263 c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\include\vendedores.h
+1747630398 c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\include\vendedores.h
 	<iostream>
 	<vector>
 	<string>
@@ -171,35 +171,31 @@
 	"Venta.h"
 	"SistemaVentas.h"
 
-1747758539 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\producto.cpp
+1747630662 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\producto.cpp
 	"Producto.h"
 	<iostream>
-	<fstream>
 	<cstdlib>
 	<ctime>
 
-1747770207 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\facturacion.cpp
+1747667899 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\facturacion.cpp
 	"Facturacion.h"
 	<iostream>
 	<cstdlib>
 	<ctime>
-	<iomanip>
 
-1747769457 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\cliente.cpp
+1747667698 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\cliente.cpp
 	"Cliente.h"
 	<iostream>
 	<iomanip>
-	<fstream>
 	<cstdlib>
 
-1747769643 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\vendedores.cpp
+1747630662 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\vendedores.cpp
 	"Vendedores.h"
 	<iostream>
 	<iomanip>
-	<fstream>
 	<cstdlib>
 
-1747769167 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\sistemaventas.cpp
+1747667698 source:c:\users\steve\onedrive\escritorio\copia de mis archivos cpp y h\src\sistemaventas.cpp
 	<iostream>
 	"SistemaVentas.h"
 	<iomanip>
@@ -207,7 +203,101 @@
 	<sstream>
 	<algorithm>
 
-1747778311 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\main.cpp
+1747692756 source:c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\src\bitacora.cpp
+	"bitacora.h"
+	<fstream>
+	<ctime>
+	<cstring>
+
+1747692757 c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\include\bitacora.h
+	<string>
+	"Cliente.h"
+
+1747692757 c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\include\cliente.h
+	<iostream>
+	<vector>
+	<string>
+	"Cliente.h"
+
+1747780863 source:c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\src\cliente.cpp
+	"Cliente.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	"encabezado.h"
+
+1747692757 source:c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\src\facturacion.cpp
+	"Facturacion.h"
+	<iostream>
+	<cstdlib>
+	<ctime>
+
+1747692757 c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\include\facturacion.h
+	"Cliente.h"
+	"Venta.h"
+	"SistemaVentas.h"
+
+1747692757 c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\include\venta.h
+	<string>
+	<vector>
+
+1747692757 c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\include\sistemaventas.h
+	<vector>
+	<string>
+	"Cliente.h"
+	"Producto.h"
+	"Venta.h"
+	"Vendedores.h"
+
+1747692757 c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\include\producto.h
+	<string>
+	<vector>
+
+1747692757 c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\include\vendedores.h
+	<iostream>
+	<vector>
+	<string>
+
+1747785087 source:c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\src\login.cpp
+	"Login.h"
+	<iostream>
+	<fstream>
+	<string>
+	"encabezado.h"
+
+1747692757 c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\include\login.h
+	<string>
+
+1747692756 source:c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\src\producto.cpp
+	"Producto.h"
+	<iostream>
+	<cstdlib>
+	<ctime>
+
+1747692756 source:c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\src\sistemaventas.cpp
+	<iostream>
+	"SistemaVentas.h"
+	<iomanip>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1747692756 source:c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\src\usuario.cpp
+	"Usuario.h"
+
+1747692757 c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\include\usuario.h
+	<string>
+
+1747692756 source:c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\src\vendedores.cpp
+	"Vendedores.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+
+1747692756 source:c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\src\venta.cpp
+	"Venta.h"
+
+1747781490 source:c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\main.cpp
 	<iostream>
 	"SistemaVentas.h"
 	"Login.h"
@@ -217,8 +307,33 @@
 	"Producto.h"
 	"vendedores.h"
 	"venta.h"
+	"encabezado.h"
 
-1747778310 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\sistemaventas.h
+1747779454 source:c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\src\globals.cpp
+	"globals.h"
+
+1747779067 c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\include\globals.h
+	<string>
+	"globals.h"
+
+1747780857 source:c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\src\encabezado.cpp
+
+1747787473 c:\users\marlo\onedrive\documentos\2025\progra\campo de pruebas\copia de mis archivos cpp y h\include\encabezado.h
+	<string>
+
+1747781490 source:c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\main.cpp
+	<iostream>
+	"SistemaVentas.h"
+	"Login.h"
+	"bitacora.h"
+	"Cliente.h"
+	"Facturacion.h"
+	"Producto.h"
+	"vendedores.h"
+	"venta.h"
+	"encabezado.h"
+
+1747692757 c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\include\sistemaventas.h
 	<vector>
 	<string>
 	"Cliente.h"
@@ -226,91 +341,98 @@
 	"Venta.h"
 	"Vendedores.h"
 
-1747778522 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\cliente.h
+1747692757 c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\include\cliente.h
 	<iostream>
 	<vector>
-	<string>
-	<fstream>
-
-1747778310 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\producto.h
-	<string>
-	<vector>
-
-1747778310 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\venta.h
-	<string>
-	<vector>
-
-1747778310 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\vendedores.h
-	<iostream>
-	<vector>
-	<string>
-
-1747778310 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\login.h
-	<string>
-
-1747778310 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\bitacora.h
 	<string>
 	"Cliente.h"
 
-1747778310 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\facturacion.h
+1747692757 c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\include\producto.h
+	<string>
+	<vector>
+
+1747692757 c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\include\venta.h
+	<string>
+	<vector>
+
+1747692757 c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\include\vendedores.h
+	<iostream>
+	<vector>
+	<string>
+
+1747692757 c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\include\login.h
+	<string>
+
+1747795762 c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\include\bitacora.h
+	<string>
+
+1747692757 c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\include\facturacion.h
 	"Cliente.h"
 	"Venta.h"
 	"SistemaVentas.h"
 
-1747778311 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\bitacora.cpp
+1747787473 c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\include\encabezado.h
+	<string>
+
+1747795762 source:c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\src\bitacora.cpp
 	"bitacora.h"
 	<fstream>
 	<ctime>
 	<cstring>
+	<string>
 
-1747778457 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\cliente.cpp
+1747787473 source:c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\src\cliente.cpp
 	"Cliente.h"
 	<iostream>
 	<iomanip>
-	<fstream>
 	<cstdlib>
+	"encabezado.h"
 
-1747778311 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\facturacion.cpp
+1747780857 source:c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\src\encabezado.cpp
+
+1747787473 source:c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\src\facturacion.cpp
 	"Facturacion.h"
 	<iostream>
 	<cstdlib>
 	<ctime>
-	<iomanip>
+	"encabezado.h"
 
-1747778311 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\login.cpp
-	"Login.h"
-	<iostream>
-	<fstream>
-	<string>
-
-1747778311 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\producto.cpp
+1747787473 source:c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\src\producto.cpp
 	"Producto.h"
 	<iostream>
-	<fstream>
 	<cstdlib>
 	<ctime>
+	"encabezado.h"
 
-1747778311 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\sistemaventas.cpp
+1747787473 source:c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\src\sistemaventas.cpp
 	<iostream>
 	"SistemaVentas.h"
 	<iomanip>
 	<fstream>
 	<sstream>
 	<algorithm>
+	"encabezado.h"
 
-1747778311 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\usuario.cpp
+1747692756 source:c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\src\usuario.cpp
 	"Usuario.h"
 
-1747778310 c:\users\seles\downloads\drive-download-20250520t215804z-1-001\include\usuario.h
+1747692757 c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\include\usuario.h
 	<string>
 
-1747778311 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\vendedores.cpp
+1747787473 source:c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\src\vendedores.cpp
 	"Vendedores.h"
 	<iostream>
 	<iomanip>
-	<fstream>
 	<cstdlib>
+	"encabezado.h"
 
-1747778310 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\venta.cpp
+1747692756 source:c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\src\venta.cpp
 	"Venta.h"
+
+1747792462 source:c:\users\marlo\onedrive\documentos\2025\progra\juegos\repositorio-grupal-no.7\menu de  ventas completo\src\login.cpp
+	"Login.h"
+	<iostream>
+	<fstream>
+	<string>
+	"encabezado.h"
 

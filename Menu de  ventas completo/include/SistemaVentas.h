@@ -28,6 +28,7 @@ private:
 
     // Funciones internas para persistencia
     void guardarVentaEnArchivo(const Venta& venta);
+    void cargarVentasDesdeArchivo();
     void eliminarVentaEnArchivo(int codigoVenta); // ← Declarada aquí
 
 public:
@@ -35,7 +36,6 @@ public:
     void nuevaVenta();
     void registroVenta();
     void EliminarVenta();
-    void cargarVentasDesdeArchivo(); // ← MOVER AQUÍ
 
     Venta* obtenerVentaPorCodigo(int codigo);
     Cliente* obtenerClientePorCodigo(const std::string& codCliente);

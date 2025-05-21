@@ -1,3 +1,5 @@
+//STEVEN ANDRE VASQUEZ CHAVEZ 9959 24 11528
+
 #ifndef VENDEDORES_H
 #define VENDEDORES_H
 
@@ -19,10 +21,8 @@ public:
     static void ModificarVendedor();
     static void EliminarVendedor();
     static void MostrarVendedores();
-    static std::vector<Vendedores>& obtenerVendedores();
+    static std::vector<Vendedores>& obtenerVendedores(); // Nuevo método
 
-    static void GuardarEnBinario();
-    static void CargarDesdeBinario();
 
 private:
     static std::vector<Vendedores> vendedores;

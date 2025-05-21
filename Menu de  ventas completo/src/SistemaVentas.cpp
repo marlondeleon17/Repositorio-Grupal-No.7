@@ -6,7 +6,7 @@
 #include <fstream>
 #include <sstream>
 #include <algorithm>
-
+#include "encabezado.h"
 
 using namespace std;
 
@@ -15,6 +15,7 @@ void SistemaVentas::menuVenta() {
     int opcion;
     do {
         limpiarPantalla();
+        cout << "\n\t\t\t USUARIO ACTUAL: " << usuarioActual << "\n"; //Marlon De Leon 5001
         cout << "\n\t\t\t------------------------\n";
         cout << "\t\t\t |   SISTEMA DE  VENTA   |\n";
         cout << "\t\t\t--------------------------\n";
@@ -45,6 +46,7 @@ void SistemaVentas::menuVenta() {
 void SistemaVentas::nuevaVenta() {
     string codCliente, codVendedor;
     limpiarPantalla();
+    cout << "\n\t\t\t USUARIO ACTUAL: " << usuarioActual << "\n"; //Marlon De Leon 5001
     cout << "\t\t\t---------------------\n";
     cout << "\t\t\t |   NUEVA VENTA     |\n";
     cout << "\t\t\t---------------------\n";
@@ -99,7 +101,6 @@ void SistemaVentas::nuevaVenta() {
 
         if (!encontrado) {
             cout << "\t\t\tProducto no encontrado.\n";
-            system("pause");
         }
 
         cout << "\t\t\t¿Desea agregar otro producto? (s/n): ";
@@ -120,6 +121,7 @@ void SistemaVentas::registroVenta() {
 
     int codigo;
     limpiarPantalla();
+    cout << "\n\t\t\t USUARIO ACTUAL: " << usuarioActual << "\n"; //Marlon De Leon 5001
     cout << "\t\t\t--------------------------\n";
     cout << "\t\t\t |   REGISTRO DE VENTA   |\n";
     cout << "\t\t\t--------------------------\n";
@@ -212,6 +214,7 @@ void SistemaVentas::cargarVentasDesdeArchivo() {
 void SistemaVentas::EliminarVenta() {
     int codigoVenta;
     limpiarPantalla();
+    cout << "\n\t\t\t USUARIO ACTUAL: " << usuarioActual << "\n"; //Marlon De Leon 5001
     cout << "\t\t\t--------------------------\n";
     cout << "\t\t\t |   ELIMINAR VENTA      |\n";
     cout << "\t\t\t--------------------------\n";
@@ -260,7 +263,7 @@ void SistemaVentas::eliminarVentaEnArchivo(int codigoVenta) {
     }
 
     // Sobrescribir el archivo con las ventas actualizadas
-    ofstream archivoVentas("ventas.bin", ios::binary); // Asegurar que se sobre escriba bien
+    ofstream archivoVentas("ventas.txt", ios::trunc); // Asegurar que se sobre escriba bien
 
     for (const auto& venta : ventasActualizadas) {
         archivoVentas << venta.codigoVenta << "\n";
